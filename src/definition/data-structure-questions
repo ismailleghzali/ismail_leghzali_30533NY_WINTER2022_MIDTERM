@@ -1,25 +1,79 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. we need it because it is very important because it helps us to organize and store data in way that is easy to use.
+- we need it because it is an essential tool for organizing and manipulating data in a way that is efficient and effective.
 
 
 What are the various operations that can be performed on different Data Structures?
+- Arrays, linked lists, Queues, hash tables, Heaps, sets. Maps
+
 List out the areas in which data structures are applied extensively?
+-Database systems, Operating systems, Computer networks, Compilers, Graphics and visualization,
+ Artificial intelligence, Data mining..
+
 what is an Array?
+- an array is a tool that we use when we know the size of our data
+it is used in java to store a collection of elements of the same data type.
+
 what is the difference between the Array and ArrayList?
+- one of the most differences between the Array and ArrayList is the size, that means that the array size is fixed and
+cannot be changed it has been created.while, the ArrayLists are dynamic, it can grow. in addition to that the array
+can only store elements of a single data type. But the ArrayList can store elements of any data type and do not need
+to be specified when the ArrayList is created.
+
 what is LinkedList?
+-linked list is a data is a kind of storage that store elements in a linear fashion, each element contains a link that
+links between the next element in the list. the linked list works by the nodes to link  between the elements.
+
 How is an Array different from Linked List?
+the size of the array is a fixed and cannot be changed, and it comes in a linear data structure, also in terms
+of element access the array elements can be accessed directly using their index, so the time complexity of accessing
+an element in an array is constant. on the other hand, the size in the linked list is dynamic, that means that it can
+grow. in addition to that, it comes in a format of nodes, each node stores a value and a reference (link) to the next
+node. finally, the element access must be accessed sequentially, starting from the head of the list.
+
 what is queue?
+- a queue is a first in first out data structure
+- a queue is a linear data structure that is open at both its ends
+
 what is stack?
+a stack is a data store that follows the structure of LIFO last in first out. the last element added should be removed
+first
+
 what is FIFO and LIFO?
+-FIFO stands for first in first out. LIFO stands for last in first out. the two elements are methods for organizing and
+managing data in a linear data structure, such as a stack or a queue.
+
 what is the order of complexity?
+-The order of complexity is a technique to describe a problem-solving approach based on the time and space the problem
+needs.
+
 what is the best case to search an element from an array?
+The best case for searching an element from an array is when the element is found at the beginning of the array.
+
 what is the worst case to search an element from an array?
+the worst case to search an element from an array is when the element is not present in the array, in addition to
+ that if it is the last element in the array.
+
 what is tree in data structure?
+-a tree in data structure is a data structure that consists of nodes organized in a hierarchy.
+
 what is graph in data structure?
+-A graph is a data structure that consists of a finite set of vertices (also called nodes) and a set of edges
+connecting these vertices. Graphs in data structures are used to address real-world problems.
+
 what is the difference between the HashTable and HashMap?
+-the difference between the two classes HashMap and Hashtable is the HashMap is not synchronized and Hashtable is
+synchronized and this makes the HashMap faster than Hashtable but not safe. on the other hand, HashMap allows null
+keys and null values, while Hashtable does not allow null keys or values. In addition to that, HashMap is part of
+the Java Collection Framework, while Hashtable is a legacy class.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+-In RDBMS the major data structures used are tables, rows, and columns.
+-In a Network data model, the major data structure is the graph.
+-In a Hierarchical data model, the major data structure is the tree
+
 How HashMap works in java?
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
 What are the different ways of copying an array into another array?

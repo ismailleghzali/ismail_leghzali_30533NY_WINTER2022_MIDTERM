@@ -1,0 +1,143 @@
+Please answer the below core-java Questions:
+
+What is programing language?
+A.
+A programming language is a language that programmers need to communicate with a computer.
+So, from here we understand that it’s a computer language that helps developers to communicate
+with a computer to create an application.
+
+
+What jdk contains or composed of and define each components?
+A.
+JDK= Java Development Kit
+-JRE: Java Runtime Environment
+    =It’s a software that we need when we wants to create any application with java. It is for execution and development.
+-JVM: Java Virtual Machine
+    =Is a part of Java Runtime Environment.it is a kind of compilers that compile the file from .java to .class.
+    the JVM understand what we write as human language and it convert it to the computer language
+-JIT: Just In Time:
+    =It’s an interpreter that is used to interpret the code from binaries to a native code. It’s a compiler.
+-Debugger:
+         =The debugger lets the user see how their program is viewed by the computer.
+-Compiler:
+         =It’s the responsible of translating the file from a .java file to a .class. in other words it converts
+          the code from a human language to byte code.
+
+
+What is IDE?
+A.
+Integrated development environment. It’s a well-designed application that helps the programmers to write their
+ codes by providing ready keywords and different colors,it also contains a compiler and a debugger
+
+What are the IDEs available in the market to support java?
+A.
+.Eclipse
+.IntelliJ IDEA
+.MyEclipse
+.NetBeans
+.DrJava
+.JDeveloper
+
+Explain the entire java life cycle.
+The Java life cycle begin when the developers starts writing their source code in an IDE and this period we call
+it text editing. Then after finishing the text editing we have to save the file under a .java extension.
+in addition to that, after saving the file under an extension .java, the second step is the compilation step,
+that it mean to convert the code from a human language to a computer language by using the command javac
+(java compiler). Then we will get a .class file after the compilation.
+Finally, the execution step, the application is ready for the execution after passing all the steps of code development
+and the compilation.
+
+what is class?
+A class is a blue print for creating objects. that means that any code that is written should be under a class otherwise
+it's not going to be executed.
+
+What is object?
+Is an instance of a class
+
+What is the entry point of an application?
+the main method.
+
+***Why main is static?
+
+Which class is the superclass of all classes?
+- the object class
+
+What is difference between path and classpath variables?
+- the difference between path and classpath is the path is  set for java tools which is available in "bin" folder
+ and it is used to compile the java program. while, the classpath is a set for java application to locate and
+  compile java byte codes stored in the .class file. and it is used to load the .class file.
+
+What is the difference between an Interface and Abstract class?
+the biggest difference between an Interface and Abstract class is the purpose. so, the abstract class is something
+ that you use when you want to generalize behavior. while, an interface is what you use when you want to standardize behavior.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+- NO. But we can implement a subclass of abstract class.Or a reference variable of an abstract class.
+
+what is Access Specifier?
+- an access specifier or access modifier are  keywords like public, protected, default and private, used in java
+to specify the scope of a variable or any class.
+
+What is OOP ? Define each feature of java OOP.
+- OOP stands for Object Oriented Programming,and it is about creating objects that contain both data and methods.
+OOP concepts include Class, Object, abstraction, encapsulation, inheritance and polymorphism.
+-class: A class is a blue print for creating objects. that means that any code that is written should be under a class otherwise
+        it's not going to be executed.
+-object: Is an instance of a class
+-abstraction: in java is hiding the details and showing only the essential things.
+-encapsulation:
+What is Java Package and which package is imported by default?
+What is API? Name list of API that you have used so far.
+Does java support multiple inheritance, explain why or why not?
+What is method overloading and when it happens?
+Explain exceptions in java and how to handle it.
+What is static keyword in java? How it has been used in variables and methods ?
+What is final and how it has been used variables and methods?
+What is final, finally and finalize?
+What is a constructor ?
+Can we have multiple constructors in a class?
+If we don't have a constructor declared, what is called during the object creation?
+What is "this" keyword in java ?
+What is "super" keyword in java? How many possible way can you use?
+What is JVM stand for ?
+Is JVM platform independent?
+What version of java are you using?
+What is JAR stand for ?
+What is the difference between JDK and JVM?
+What is the difference between JVM and JRE?
+What is compile time and run time?
+What is heap?
+How java manage it's memory?
+What is the difference between String, StringBuffer and StringBuilder?
+What is Singleton class?
+What is Serialization and Deserialization?
+when to use transient variable in java?
+Difference between while and do..while loop?
+What is Enum?
+What is Iterator?
+Which one will take more memory, an int or Integer?
+Why is String Immutable in Java?
+What is constructor chaining in Java?
+The difference between Serial and Parallel Garbage Collector?
+What is JIT stands for?
+Explain Java Heap space and Garbage collection?
+Can you guarantee the garbage collection process?
+What is the difference between stack and heap in Java?
+What is reflection in java and why is it useful?
+what is multithreading in java?
+What is the use of synchronization in Java?
+What is Framework?
+What are the testing Framework available in java?
+Difference between jUnit and testNG?
+What are the dependencies for this project?
+what is dependency injection in java?
+What is static binding and dynamic binding?
+
+
+
+
+
+
+
+
+
