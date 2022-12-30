@@ -2,14 +2,14 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-A programming language is a language that programmers need to communicate with a computer.
+-A programming language is a language that programmers need to communicate with a computer.
 So, from here we understand that it’s a computer language that helps developers to communicate
 with a computer to create an application.
 
 
 What jdk contains or composed of and define each components?
 A.
-JDK= Java Development Kit
+-JDK= Java Development Kit
 -JRE: Java Runtime Environment
     =It’s a software that we need when we wants to create any application with java. It is for execution and development.
 -JVM: Java Virtual Machine
@@ -26,7 +26,7 @@ JDK= Java Development Kit
 
 What is IDE?
 A.
-Integrated development environment. It’s a well-designed application that helps the programmers to write their
+-Integrated development environment. It’s a well-designed application that helps the programmers to write their
  codes by providing ready keywords and different colors,it also contains a compiler and a debugger
 
 What are the IDEs available in the market to support java?
@@ -39,7 +39,7 @@ A.
 .JDeveloper
 
 Explain the entire java life cycle.
-The Java life cycle begin when the developers starts writing their source code in an IDE and this period we call
+-The Java life cycle begin when the developers starts writing their source code in an IDE and this period we call
 it text editing. Then after finishing the text editing we have to save the file under a .java extension.
 in addition to that, after saving the file under an extension .java, the second step is the compilation step,
 that it mean to convert the code from a human language to a computer language by using the command javac
@@ -48,16 +48,17 @@ Finally, the execution step, the application is ready for the execution after pa
 and the compilation.
 
 what is class?
-A class is a blue print for creating objects. that means that any code that is written should be under a class otherwise
+-A class is a blue print for creating objects. that means that any code that is written should be under a class otherwise
 it's not going to be executed.
 
 What is object?
-Is an instance of a class
+-Is an instance of a class
 
 What is the entry point of an application?
-the main method.
+-the main method.
 
-***Why main is static?
+Why main is static?
+- The main() method is static because its convenient for the JDK.
 
 Which class is the superclass of all classes?
 - the object class
@@ -68,8 +69,8 @@ What is difference between path and classpath variables?
   compile java byte codes stored in the .class file. and it is used to load the .class file.
 
 What is the difference between an Interface and Abstract class?
-the biggest difference between an Interface and Abstract class is the purpose. so, the abstract class is something
- that you use when you want to generalize behavior. while, an interface is what you use when you want to standardize behavior.
+-the biggest difference between an Interface and Abstract class is the purpose. so, the abstract class is something
+that you use when you want to generalize behavior. while, an interface is what you use when you want to standardize behavior.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 - NO. But we can implement a subclass of abstract class.Or a reference variable of an abstract class.
@@ -111,18 +112,19 @@ Explain exceptions in java and how to handle it.
 
 What is static keyword in java? How it has been used in variables and methods ?
 -The static keyword in Java is used for memory management. it belongs to the class than an instance of the class
-****- it has been used in variables and methods by
+-We can apply static keyword with variables, methods, blocks and nested classes. The static keyword belongs to the class than an
+instance of the class.
 
 What is final and how it has been used variables and methods?
 -final is a  is a reserved keyword in java, and it has a different meaning depending upon whether it is applied to a
- variable, class, or method.
+variable, class, or method.
 - final keyword with a Variables means that the variable cannot be changed once initialized.
 -final keyword with a method means that The method cannot be overridden by a subclass. Whenever we declare any method as
 final, then it means that we can’t override that method.
 
 What is final, finally and finalize?
 -final is a  is a reserved keyword in java, and it has a different meaning depending upon whether it is applied to a
-  variable, class, or method.
+variable, class, or method.
 - finally keyword comes with an exception handling to execute the code.
 -finalize is an object garbage collection.
 
@@ -134,7 +136,8 @@ Can we have multiple constructors in a class?
 -yes, we can have multiple constructors in a class, but the parameters should not be the same
 
 If we don't have a constructor declared, what is called during the object creation?
-*******************************************************
+- If a class does not explicitly declare any, the Java compiler automatically provides a no-argument constructor,
+called the default constructor.
 What is "this" keyword in java ?
 -This is a reference variable that refers to the current object.
 
@@ -263,7 +266,7 @@ can be used to verify the expected behavior of a test case. However, TestNG prov
 methods and allows developers to define their own custom assertion methods.
 
 What are the dependencies for this project?
-********************************************
+-Maven, jUnit, mySQL
 what is dependency injection in java?
 - it is a design pattern that is used to manage the dependencies between objects.
 -Dependency Injection is the ability of an object to supply dependencies of another object.

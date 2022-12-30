@@ -27,7 +27,7 @@ what is LinkedList?
 links between the next element in the list. the linked list works by the nodes to link  between the elements.
 
 How is an Array different from Linked List?
-the size of the array is a fixed and cannot be changed, and it comes in a linear data structure, also in terms
+-the size of the array is a fixed and cannot be changed, and it comes in a linear data structure, also in terms
 of element access the array elements can be accessed directly using their index, so the time complexity of accessing
 an element in an array is constant. on the other hand, the size in the linked list is dynamic, that means that it can
 grow. in addition to that, it comes in a format of nodes, each node stores a value and a reference (link) to the next
@@ -50,10 +50,10 @@ what is the order of complexity?
 needs.
 
 what is the best case to search an element from an array?
-The best case for searching an element from an array is when the element is found at the beginning of the array.
+-The best case for searching an element from an array is when the element is found at the beginning of the array.
 
 what is the worst case to search an element from an array?
-the worst case to search an element from an array is when the element is not present in the array, in addition to
+-the worst case to search an element from an array is when the element is not present in the array, in addition to
  that if it is the last element in the array.
 
 what is tree in data structure?
@@ -75,14 +75,56 @@ What are the major data structures used in the following areas : RDBMS, Network 
 -In a Hierarchical data model, the major data structure is the tree
 
 How HashMap works in java?
+-the HashMap works in java by using hash tables to store elements. so, when you create a HashMap object, you can specify
+the initial capacity and load factor as arguments. in addition to that, when you put a key-value pair into the HashMap
+using the put() method, the key is hashed using a hash function to determine the index at which the value will be
+stored in the hash table. ans, when you retrieve a value from the HashMap using the get() method, the key is again
+hashed to determine the index at which the value is stored.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+-ArrayIndexOutOfBoundsException is a runtime exception that occurs when you try to access an element of an array with an
+index that is outside the bounds of the array.
+
 What are the different ways of copying an array into another array?
+-Copying element by element
+-Using the clone() method
+-Using the System.arraycopy() method
+
 What is difference between an array and a linked list?
+-the difference between an array and a linked list is
+first the size, An array has a fixed size, but the linked list can grow or shrink dynamically as elements are added or
+removed. secondly, the access time,Arrays allow constant-time access to any element, since the elements are stored in
+contiguous memory locations and can be accessed using their indices. Linked lists, on the other hand, require linear
+time to access an element, since you have to follow the references from one node to the next until you reach the
+desired element. Finally, there's also a big difference in the insertion and deletion and also memory usage between
+arrays and linked lists.
+
 What is DFS and BFS?
+-DFS stands for Depth-First Search and BFS stands for Breadth-First Search. So, they are two algorithms for traversing
+a graph or tree data structure.
+-BFS finds the shortest path to the destination, whereas DFS goes to the bottom of a subtree, then backtracks.
+
 What is Recursion?
+-Recursion is a technique in which a function calls itself with a modified version of its own input.
+It is a way of defining a function in terms of itself.
+
 What are linear and non linear data Structures?
+-Linear data structures are those in which the data elements are arranged in a linear sequence.
+-Non-linear data structures are those in which the data elements are not arranged in a linear sequence.
 What is Big-(O)-notation?
+-Big-O notation is a way of expressing the time complexity of an algorithm, which is a measure of how long an algorithm
+takes to run as a function of the size of the input.
+
 Outlined different kind of sorting algorithm with time complexity?
+-Best Time Complexity: Define the input for which algorithm takes less time or minimum time.
+In the best case calculate the lower bound of an algorithm. Example: In the linear search when search data is present
+at the first location of large data then the best case occurs.
+
+-Average Time Complexity: In the average case take all random inputs and calculate the computation time for all inputs.
+And then we divide it by the total number of inputs.
+-Worst Time Complexity: Define the input for which algorithm takes a long time or maximum time. In the worst calculate
+the upper bound of an algorithm. Example: In the linear search when search data is present at the last location of large
+data then the worst case occurs.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
@@ -90,4 +132,13 @@ Draw a table with time complexity in which it will summarize all the data struct
   c)In terms of Searching element.
   d)In terms of Removing element.
 
+Data      Accessing Element 	Inserting Element	Searching Element	Removing Element
+Array	      O(1)	                 O(n)	                   O(n)	             O(n)
+Linked List   O(n)	                 O(1)	                   O(n)	             O(1)
+Stack	      O(n)	                 O(1)	                   O(n)	             O(1)
+Queue	      O(n)	                 O(1)	                   O(n)	             O(1)
+Hash Table	  O(1)	                 O(1)                      O(1)	             O(1)
+BST           O(h)	                 O(h)	                   O(h)	             O(h)
+Heap	      O(n)              	O(logn)                    O(n)	           O(logn)
+Graph	      O(n)	                O(1)	                   O(n)	             O(n)
 

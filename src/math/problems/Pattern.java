@@ -8,6 +8,21 @@ public class Pattern {
 		 *
 		 *
 		 */
+		int num = 100;
+
+		while (num > 0) {
+			if (num > 90) {
+				System.out.print(num + " ");
+				num--;
+			} else if (num > 36) {
+				System.out.print(num + " ");
+				num -= 2;
+			} else {
+				System.out.print(num + " ");
+				num -= 4;
+
+			}
+		}
 
 
 	}
