@@ -1,5 +1,10 @@
 package datastructure;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class UseMap {
 
 	public static void main(String[] args) {
@@ -10,6 +15,41 @@ public class UseMap {
 		 *
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 */
+
+		Map<String, List<String>> listMap = new HashMap<String, List<String>>();
+
+
+		List<String> list = new ArrayList<String>();
+		list.add("cristiano");
+		list.add("messi");
+		list.add("neymar");
+
+
+		listMap.put("key1", list);
+
+
+		list = new ArrayList<String>();
+		list.add("hazard");
+		list.add("mahrez");
+		listMap.put("key2", list);
+
+
+		for (Map.Entry<String, List<String>> entry : listMap.entrySet()) {
+			System.out.println("Key: " + entry.getKey());
+			System.out.println("Values: " + entry.getValue());
+		}
+
+
+		for (Map.Entry<String, List<String>> entry : listMap.entrySet()) {
+			System.out.println("Key: " + entry.getKey());
+			System.out.println("Values: " + entry.getValue());
+		}
+
+
+		for (Map.Entry<String, List<String>> entry : listMap.entrySet()) {
+			System.out.println("Key: " + entry.getKey());
+			System.out.println("Values: " + entry.getValue());
+		}
 
 	}
 

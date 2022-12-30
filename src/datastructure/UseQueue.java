@@ -1,36 +1,42 @@
 package datastructure;
-
 import java.util.LinkedList;
 import java.util.Queue;
-
 public class UseQueue {
 
 	public static void main(String[] args) {
 		/*
 		 * Demonstrate how to use Queue that includes add,peek,remove,pool elements.
 		 * Use For Each loop and while loop with Iterator to retrieve data.
-		 * 
+		 *
 		 */
+		// Create a queue
 		Queue<String> queue = new LinkedList<>();
 
-		queue.add("A");
-		queue.add("B");
-		queue.add("C");
+		// Add elements to the queue
+		queue.add("cristiano");
+		queue.add("messi");
+		queue.add("pele");
 
-		System.out.println("Peek: " + queue.peek());
 
-		System.out.println("Removed: " + queue.remove());
+		System.out.println("Peek at the head of the queue: " + queue.peek());
 
-		System.out.println("Poll: " + queue.poll());
+		System.out.println("Removed element: " + queue.remove());
 
-		for (String s : queue) {
-			System.out.println(s);
+
+		System.out.println("Polled element: " + queue.poll());
+
+
+		System.out.println("Retrieving elements using for each loop:");
+		for (String element : queue) {
+			System.out.println(element);
 		}
 
-		queue.clear();
 
-		System.out.println("Queue is empty: " + queue.isEmpty());
+		System.out.println("Retrieving elements using while loop with iterator:");
+		while (!queue.isEmpty()) {
+			System.out.println(queue.poll());
+		}
+
 	}
+
 }
-
-
