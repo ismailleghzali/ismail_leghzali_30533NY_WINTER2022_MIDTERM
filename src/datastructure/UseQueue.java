@@ -13,9 +13,9 @@ public class UseQueue {
 		Queue<String> queue = new LinkedList<>();
 
 		// Add elements to the queue
-		queue.add("cristiano");
-		queue.add("messi");
-		queue.add("pele");
+		queue.add("iphone");
+		queue.add("samsung");
+		queue.add("huawei");
 
 
 		System.out.println("Peek at the head of the queue: " + queue.peek());
