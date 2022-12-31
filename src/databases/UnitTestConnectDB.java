@@ -8,11 +8,11 @@ public class UnitTestConnectDB {
     public void testConnectToSqlDB() {
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 
-        // Test connecting to the database
+
         boolean success = connectToSqlDB.connect();
         assertEquals(true, success);
 
-        // Test disconnecting from the database
+
         success = connectToSqlDB.connect();
         assertTrue(success);
     }
