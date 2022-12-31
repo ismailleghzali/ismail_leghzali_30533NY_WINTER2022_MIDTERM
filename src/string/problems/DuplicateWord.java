@@ -1,4 +1,5 @@
 package string.problems;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -47,5 +48,9 @@ public class DuplicateWord {
 
         System.out.println("Average length of words: " + averageLength);
 
+    }
+
+    public static ArrayList<String> duplicatedWord(String st) {
+        return duplicatedWord(st);
     }
 }

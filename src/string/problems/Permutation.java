@@ -39,4 +39,8 @@ public class Permutation {
         String end = word.substring(i);
         return start + c + end;
     }
+
+    public static ArrayList<String> getPermutation(String abc) {
+        return getPermutations(abc);
+    }
 }
